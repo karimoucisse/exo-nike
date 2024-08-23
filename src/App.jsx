@@ -1,11 +1,9 @@
-import HeroPage from "./components/HeroPage";
-import Navbar from "./components/Navbar";
+import Homepage from "./Homepage";
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      <HeroPage/>
+      <Homepage/>
     </div>
   );
 }

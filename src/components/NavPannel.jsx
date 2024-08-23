@@ -10,8 +10,8 @@ import {
   TabPanels,
 } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
-
-const NavPannel = ({open, setOpen, navigation}) => {
+import { navigation } from '../data'
+const NavPannel = ({open, setOpen}) => {
   return (
 	<>
 	<Dialog open={open} onClose={setOpen} className="relative z-40 lg:hidden">
