@@ -14,11 +14,17 @@ const Homepage = () => {
   return (
     <div>
       <Navbar />
-      <HeroPage img="/nouveau1.jpg" title="Exprimez Votre Style - Découvrez Nos Collections Tendance"/>
-      <Homepagesection title="En ce moment" values={srcs1}/>
-	  <Homepagesection title="Nos modeles iconiques" values={srcs1}/>
-	  <Homepagesection title="Nouveautes de la semaine" values={srcs1}/>
-	  <HeroPage img="/nouveau2.jpg" title="Votre Style, Votre Histoire - Explorez Nos Collections Uniques"/>
+      <HeroPage
+        img="/nouveau1.jpg"
+        title="Exprimez Votre Style - Découvrez Nos Collections Tendance"
+      />
+      <Homepagesection title="En ce moment" values={srcs1} />
+      <Homepagesection title="Nos modeles iconiques" values={srcs1} />
+      <Homepagesection title="Nouveautes de la semaine" values={srcs1} />
+      <HeroPage
+        img="/nouveau2.jpg"
+        title="Votre Style, Votre Histoire - Explorez Nos Collections Uniques"
+      />
     </div>
   );
 };
