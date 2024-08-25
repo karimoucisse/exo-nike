@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import HeroPage from "./components/HeroPage";
 import Homepagesection from "./components/Homepagesection";
+import Footer from "./components/Footer";
 
 const Homepage = () => {
   const srcs1 = [
@@ -25,6 +26,7 @@ const Homepage = () => {
         img="/nouveau2.jpg"
         title="Votre Style, Votre Histoire - Explorez Nos Collections Uniques"
       />
+      <Footer/>
     </div>
   );
 };
